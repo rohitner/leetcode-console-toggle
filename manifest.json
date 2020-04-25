@@ -1,0 +1,25 @@
+{
+  "name": "Leet Console Toggle",
+  "version": "1.0",
+  "description": "Don't touch your mouse!",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://leetcode.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://leetcode.com/*"
+      ],
+      "js": ["background.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/lct16.png",
+    "32": "images/lct32.png",
+    "48": "images/lct48.png",
+    "128": "images/lct128.png"
+  },
+  "manifest_version": 2
+}
