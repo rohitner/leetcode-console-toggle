@@ -3,6 +3,13 @@ Keyboard shortcut to toggle your LeetCode console
 
 ![lct.gif](images/lct.gif)
 
+#### Key Map
+| Key          | Function       |
+| ------------ | -------------- |
+| `Ctrl` + `c` | Toggle console |
+| `Ctrl` + `\` | Reset code     |
+| `Ctrl` + `i` | Toggle notes   |
+
 #### Install Instruction for Chrome
 1. Go to the extensions tab
 2. Check the developer mode
